@@ -1,0 +1,38 @@
+.App{
+  background: lightblue;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+h1{
+  text-align: center;
+}
+
+input{
+  outline: none;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.add:hover{
+  background: green;
+  color: white;
+}
+
+.delete:hover{
+  background: red;
+  color: aliceblue;
+}
+
+button{
+  margin-left: 10px;
+  border: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
